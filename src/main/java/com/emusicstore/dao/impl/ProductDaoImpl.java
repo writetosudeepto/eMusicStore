@@ -11,31 +11,38 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * Created by Le on 1/6/2016.
+ */
+
 @Repository
 @Transactional
-public class ProductDaoImpl implements ProductDao
-{
+public class ProductDaoImpl implements ProductDao {
 
     @Autowired
     private SessionFactory sessionFactory;
 
-    public void addProduct(Product product)
-    {
+    public void addProduct(Product product) {
         Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(product);
         session.flush();
     }
 
-    public Product getProductById(int id)
-    {
+    public void editProduct(Product product) {
         Session session = sessionFactory.getCurrentSession();
-        Product product = (Product) session.get(Product.class,id);
+        session.saveOrUpdate(product);
         session.flush();
+    }
+
+    public Product getProductById(int id) {
+        Session session = sessionFactory.getCurrentSession();
+        Product product = (Product) session.get(Product.class, id);
+        session.flush();
+
         return product;
     }
 
-    public List<Product> getAllProducts()
-    {
+    public List<Product> getAllProducts() {
         Session session = sessionFactory.getCurrentSession();
         Query query = session.createQuery("from Product");
         List<Product> products = query.list();
@@ -44,11 +51,9 @@ public class ProductDaoImpl implements ProductDao
         return products;
     }
 
-    public void deleteProduct(int id)
-    {
+    public void deleteProduct (int id) {
         Session session = sessionFactory.getCurrentSession();
         session.delete(getProductById(id));
         session.flush();
-
     }
 }

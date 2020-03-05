@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MAVEN</ID>
+  <OriginalElement>com.mywebsite:emusicstore:1.0-SNAPSHOT</OriginalElement>
+  <nodes>
+    <node x="0.0" y="620.0">com.mywebsite:emusicstore:1.0-SNAPSHOT</node>
+    <node x="156.5" y="580.0">jstl:jstl:jar:1.2</node>
+    <node x="133.5" y="180.0">org.springframework:spring-core:jar:4.1.4.RELEASE</node>
+    <node x="342.5" y="160.0">org.springframework:spring-core:jar:4.1.4.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+    <node x="122.5" y="314.9015567765569">org.springframework:spring-webmvc:jar:4.1.4.RELEASE</node>
+    <node x="358.0" y="120.0">org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE</node>
+    <node x="353.5" y="320.0">org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE</node>
+    <node x="363.5" y="200.00000000000003">org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE</node>
+    <node x="525.0" y="200.00000000000003">org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+    <node x="345.5" y="380.0">org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-expression:jar:4.1.4.RELEASE</node>
+    <node x="362.5" y="260.0">org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-web:jar:4.1.4.RELEASE</node>
+    <node x="134.0" y="52.81527995813724">org.springframework:spring-orm:jar:4.1.4.RELEASE</node>
+    <node x="362.0" y="60.0">org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-jdbc:jar:4.1.4.RELEASE</node>
+    <node x="368.5" y="0.0">org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-tx:jar:4.1.4.RELEASE</node>
+    <node x="125.0" y="540.0">org.hibernate:hibernate-core:jar:4.0.1.Final</node>
+    <node x="334.5" y="540.0">org.hibernate:hibernate-core:jar:4.0.1.Final/commons-collections:commons-collections:jar:3.2.1</node>
+    <node x="380.5" y="420.0">org.hibernate:hibernate-core:jar:4.0.1.Final/antlr:antlr:jar:2.7.7</node>
+    <node x="312.0" y="620.3450418628992">org.hibernate:hibernate-core:jar:4.0.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final</node>
+    <node x="375.5" y="500.0">org.hibernate:hibernate-core:jar:4.0.1.Final/dom4j:dom4j:jar:1.6.1</node>
+    <node x="532.0" y="500.0">org.hibernate:hibernate-core:jar:4.0.1.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+    <node x="356.0" y="660.3450418628992">org.hibernate:hibernate-core:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
+    <node x="371.0" y="460.0">org.hibernate:hibernate-core:jar:4.0.1.Final/org.javassist:javassist:jar:3.15.0-GA</node>
+    <node x="304.0" y="720.3450418628992">org.hibernate:hibernate-core:jar:4.0.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final</node>
+    <node x="108.0" y="419.8986132914705">org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+    <node x="157.5" y="700.0">com.h2database:h2:jar:1.4.200</node>
+    <node x="141.0" y="620.0">taglibs:standard:jar:1.1.2</node>
+    <node x="108.0" y="780.0">commons-fileupload:commons-fileupload:jar:1.2.2</node>
+    <node x="129.5" y="660.0">commons-io:commons-io:jar:2.4</node>
+    <node x="121.5" y="740.0">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+    <node x="113.5" y="880.0">org.hibernate:hibernate-validator:jar:4.2.0.Final</node>
+    <node x="371.5" y="880.0">org.hibernate:hibernate-validator:jar:4.2.0.Final/org.slf4j:slf4j-api:jar:1.6.1</node>
+    <node x="127.5" y="820.0">javax.validation:validation-api:jar:1.0.0.GA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2">
+      <point x="0.0" y="-10.0" />
+      <point x="0.0" y="10.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+      <point x="0.0" y="-10.0" />
+      <point x="0.0" y="10.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE">
+      <point x="-51.0" y="-7.5" />
+      <point x="274.0" y="322.5" />
+      <point x="274.0" y="216.66666666666666" />
+      <point x="-41.0" y="6.666666666666629" />
+    </edge>
+    <edge source="org.hibernate:hibernate-validator:jar:4.2.0.Final" target="org.hibernate:hibernate-validator:jar:4.2.0.Final/org.slf4j:slf4j-api:jar:1.6.1">
+      <point x="62.5" y="-0.0" />
+      <point x="-33.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-core:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE/commons-logging:commons-logging:jar:1.2">
+      <point x="42.5" y="-1.25" />
+      <point x="244.0" y="188.75" />
+      <point x="264.0" y="170.0" />
+      <point x="-62.0" y="-0.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.2.2">
+      <point x="44.0" y="6.153846153846132" />
+      <point x="-68.0" y="-0.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE">
+      <point x="44.0" y="-6.153846153846132" />
+      <point x="108.0" y="324.9015567765569" />
+      <point x="-53.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-expression:jar:4.1.4.RELEASE">
+      <point x="53.5" y="7.5" />
+      <point x="244.0" y="332.4015567765569" />
+      <point x="264.0" y="395.0" />
+      <point x="-59.0" y="5.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="0.0" y="10.0" />
+      <point x="0.0" y="-10.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE">
+      <point x="53.5" y="2.5" />
+      <point x="244.0" y="327.4015567765569" />
+      <point x="264.0" y="337.5" />
+      <point x="-51.0" y="7.5" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE/aopalliance:aopalliance:jar:1.0">
+      <point x="41.0" y="-0.0" />
+      <point x="-42.0" y="-0.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.4">
+      <point x="44.0" y="1.5384615384615472" />
+      <point x="108.0" y="670.0" />
+      <point x="-46.5" y="-0.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+      <point x="51.0" y="8.571428571428555" />
+      <point x="244.0" y="558.5714285714286" />
+      <point x="264.0" y="730.3450418628992" />
+      <point x="-100.5" y="-0.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/antlr:antlr:jar:2.7.7">
+      <point x="51.0" y="-8.571428571428584" />
+      <point x="244.0" y="541.4285714285714" />
+      <point x="264.0" y="430.0" />
+      <point x="-24.0" y="-0.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/org.javassist:javassist:jar:3.15.0-GA">
+      <point x="51.0" y="-5.714285714285722" />
+      <point x="244.0" y="544.2857142857143" />
+      <point x="264.0" y="470.0" />
+      <point x="-33.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-web:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE">
+      <point x="0.0" y="10.0" />
+      <point x="0.0" y="-10.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-expression:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-59.0" y="-5.0" />
+      <point x="264.0" y="385.0" />
+      <point x="244.0" y="198.75" />
+      <point x="42.5" y="8.75" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="0.0" y="-10.0" />
+      <point x="0.0" y="10.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-46.5" y="-2.8571428571428896" />
+      <point x="264.0" y="127.14285714285711" />
+      <point x="244.0" y="186.25" />
+      <point x="42.5" y="-3.75" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="taglibs:standard:jar:1.1.2">
+      <point x="44.0" y="-0.0" />
+      <point x="-35.0" y="-0.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final/dom4j:dom4j:jar:1.6.1" target="org.hibernate:hibernate-core:jar:4.0.1.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2">
+      <point x="29.0" y="-0.0" />
+      <point x="-35.0" y="-0.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="com.h2database:h2:jar:1.4.200">
+      <point x="44.0" y="3.0769230769230944" />
+      <point x="108.0" y="710.0" />
+      <point x="-18.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-jdbc:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-42.5" y="5.0" />
+      <point x="264.0" y="75.0" />
+      <point x="244.0" y="183.75" />
+      <point x="42.5" y="-6.25" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.0.1">
+      <point x="44.0" y="4.615384615384642" />
+      <point x="108.0" y="750.0" />
+      <point x="-54.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-web:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="-42.0" y="-6.666666666666629" />
+      <point x="284.0" y="263.33333333333337" />
+      <point x="284.0" y="135.71428571428567" />
+      <point x="-46.5" y="5.714285714285666" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-web:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-42.0" y="-0.0" />
+      <point x="264.0" y="270.0" />
+      <point x="244.0" y="193.75" />
+      <point x="42.5" y="3.75" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="-51.0" y="-2.5" />
+      <point x="264.0" y="327.5" />
+      <point x="264.0" y="132.8571428571429" />
+      <point x="-46.5" y="2.8571428571428896" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-51.0" y="2.5" />
+      <point x="264.0" y="332.5" />
+      <point x="244.0" y="196.25" />
+      <point x="42.5" y="6.25" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="53.5" y="-7.5" />
+      <point x="244.0" y="317.4015567765569" />
+      <point x="264.0" y="130.0" />
+      <point x="-46.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE" target="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-tx:jar:4.1.4.RELEASE">
+      <point x="42.0" y="-6.666666666666629" />
+      <point x="244.0" y="56.14861329147061" />
+      <point x="264.0" y="3.3333333333333712" />
+      <point x="-36.0" y="-6.666666666666629" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="javax.validation:validation-api:jar:1.0.0.GA">
+      <point x="44.0" y="7.692307692307679" />
+      <point x="108.0" y="830.0" />
+      <point x="-48.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="-41.0" y="-6.666666666666629" />
+      <point x="294.0" y="203.3333333333334" />
+      <point x="294.0" y="138.57142857142856" />
+      <point x="-46.5" y="8.571428571428555" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-41.0" y="-0.0" />
+      <point x="264.0" y="210.00000000000003" />
+      <point x="244.0" y="191.25" />
+      <point x="42.5" y="1.25" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2">
+      <point x="51.0" y="5.714285714285722" />
+      <point x="244.0" y="555.7142857142858" />
+      <point x="264.0" y="670.3450418628992" />
+      <point x="-48.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-web:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE/org.springframework:spring-aop:jar:4.1.4.RELEASE">
+      <point x="0.0" y="-10.0" />
+      <point x="0.0" y="10.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
+      <point x="44.0" y="-1.5384615384615472" />
+      <point x="108.0" y="590.0" />
+      <point x="-19.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-web:jar:4.1.4.RELEASE">
+      <point x="53.5" y="-2.5" />
+      <point x="244.0" y="322.4015567765569" />
+      <point x="264.0" y="276.66666666666663" />
+      <point x="-42.0" y="6.666666666666629" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+      <point x="51.0" y="2.857142857142861" />
+      <point x="244.0" y="552.8571428571429" />
+      <point x="264.0" y="630.3450418628992" />
+      <point x="-92.5" y="-0.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-validator:jar:4.2.0.Final" target="javax.validation:validation-api:jar:1.0.0.GA">
+      <point x="0.0" y="-10.0" />
+      <point x="0.0" y="10.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-jdbc:jar:4.1.4.RELEASE" target="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-tx:jar:4.1.4.RELEASE">
+      <point x="0.0" y="-10.0" />
+      <point x="0.0" y="10.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/dom4j:dom4j:jar:1.6.1">
+      <point x="51.0" y="-2.857142857142861" />
+      <point x="244.0" y="547.1428571428571" />
+      <point x="264.0" y="510.0" />
+      <point x="-29.0" y="-0.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:4.0.1.Final">
+      <point x="44.0" y="-3.0769230769230944" />
+      <point x="108.0" y="550.0" />
+      <point x="-51.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="42.0" y="6.666666666666629" />
+      <point x="244.0" y="69.48194662480387" />
+      <point x="264.0" y="124.28571428571433" />
+      <point x="-46.5" y="-5.714285714285666" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.1.4.RELEASE">
+      <point x="44.0" y="-9.230769230769226" />
+      <point x="108.0" y="62.81527995813724" />
+      <point x="-42.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-tx:jar:4.1.4.RELEASE" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="-36.0" y="-0.0" />
+      <point x="264.0" y="10.0" />
+      <point x="244.0" y="181.25" />
+      <point x="42.5" y="-8.75" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-jdbc:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="0.0" y="10.0" />
+      <point x="0.0" y="-10.0" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-tx:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-beans:jar:4.1.4.RELEASE">
+      <point x="-36.0" y="6.666666666666629" />
+      <point x="264.0" y="16.66666666666663" />
+      <point x="264.0" y="121.42857142857144" />
+      <point x="-46.5" y="-8.571428571428555" />
+    </edge>
+    <edge source="org.springframework:spring-orm:jar:4.1.4.RELEASE" target="org.springframework:spring-orm:jar:4.1.4.RELEASE/org.springframework:spring-jdbc:jar:4.1.4.RELEASE">
+      <point x="42.0" y="-0.0" />
+      <point x="244.0" y="62.81527995813724" />
+      <point x="264.0" y="65.0" />
+      <point x="-42.5" y="-5.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="org.hibernate:hibernate-validator:jar:4.2.0.Final">
+      <point x="44.0" y="9.230769230769226" />
+      <point x="-62.5" y="-0.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+      <point x="44.0" y="-4.615384615384642" />
+      <point x="-68.0" y="-0.0" />
+    </edge>
+    <edge source="org.hibernate:hibernate-core:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.0.1.Final/commons-collections:commons-collections:jar:3.2.1">
+      <point x="51.0" y="-0.0" />
+      <point x="-70.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-context:jar:4.1.4.RELEASE" target="org.springframework:spring-webmvc:jar:4.1.4.RELEASE/org.springframework:spring-expression:jar:4.1.4.RELEASE">
+      <point x="0.0" y="10.0" />
+      <point x="0.0" y="-10.0" />
+    </edge>
+    <edge source="com.mywebsite:emusicstore:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.1.4.RELEASE">
+      <point x="44.0" y="-7.692307692307679" />
+      <point x="108.0" y="190.0" />
+      <point x="-42.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8336956521739132" x="285.84876140808336" y="298.2959582790091" />
+  <SelectedNodes />
+  <Categories />
+  <VISIBILITY>All</VISIBILITY>
+</Diagram>
+
